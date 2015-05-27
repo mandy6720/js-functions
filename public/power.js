@@ -4,7 +4,7 @@
 */
 
 function multiply(a, b) {
-
+	return a * b;
 }
 
 /*
@@ -15,6 +15,12 @@ function multiply(a, b) {
 */
 
 function power(base, exponent) {
+	var answer = 1;
 
+	for (var i = 1; i <= exponent; i++) {
+		answer = answer * base;
+	}
+	return answer;
 }
 
+// power(5, 3) = 25
