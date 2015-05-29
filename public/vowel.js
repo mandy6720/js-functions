@@ -7,12 +7,17 @@
   Hint: string.toLowerCase()
 */
 
-function isVowel(letter) {
+function isVowel(letter, isYaVowel) {
 
  var input = letter.toLowerCase();
  var answer = false;
+ var vowels = ["a", "e", "i", "o", "u"];
 
- if (input === "a" || input === "e" || input === "i" || input === "o" || input ==="u") {
+ if (isYaVowel) {
+ 	vowels.push("y");
+ }
+
+ if (vowels.indexOf(input) !== -1) {
  	answer = true;
  }
  return answer;
