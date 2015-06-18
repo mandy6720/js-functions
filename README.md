@@ -1,3 +1,19 @@
+## JavaScript - Functions - Week 2, assignment 2
+
+### What I did
+
+In this assignment, I worked more with TDD (test driven development). Similar to the assignment from the previous day, I was given a series of empty functions that were not passing. In order to complete the assignment, I needed to write code that would make them pass their respecrive tests.
+
+In addition to learning about JS functions, we also went into detail about writing DRY (don't repeat yourself) code.
+
+The original instructions are below.
+
+
+
+
+
+
+
 ## JavaScript - Functions
 
 ### Description
